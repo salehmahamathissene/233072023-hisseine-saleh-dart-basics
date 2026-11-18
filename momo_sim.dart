@@ -1,9 +1,10 @@
 
  // Student: Saleh Mahamat Hisseine
- // Reg no: 23307/2023
- const String regNo = '233072023';
- final int d = int.parse(regNo[regNo.length - 1]);
- final int t = int.parse(regNo.substring(regNo.length - 2));
+ // Reg no: 233072023
+
+const String regNo = '233072023';
+final int d = int.parse(regNo[regNo.length - 1]);
+final int t = int.parse(regNo.substring(regNo.length - 2));
 
 int momoFee(int amount) {
   // by SMH
@@ -108,7 +109,7 @@ int buyAirtime(int balance, int amount) {
 
 void main() {
   // by SMH
-  print('Reg no: 23307/2023 | D = $d | T = $t');
+  print('Reg no: $regNo | D = $d | T = $t');
 
   print('PIN 12345: ${isValidPin('12345')}');
   print('PIN 77777: ${isValidPin('77777')}');

@@ -1,9 +1,10 @@
 
  // Student: Saleh Mahamat Hisseine
- // Reg no: 23307/2023
- const String regNo = '233072023';
- final int d = int.parse(regNo[regNo.length - 1]);
- final int t = int.parse(regNo.substring(regNo.length - 2));
+ // Reg no:  233072023
+
+const String regNo = '233072023';
+final int d = int.parse(regNo[regNo.length - 1]);
+final int t = int.parse(regNo.substring(regNo.length - 2));
 
 int countVowels(String text) {
   // by SMH
@@ -86,7 +87,7 @@ String maskPhone(String phone) {
 
 void main() {
   // by SMH
-  print('Reg no: 23307/2023 | D = $d | T = $t');
+  print('Reg no: $regNo | D = $d | T = $t');
 
   int vowelCount = countVowels('Saleh Mahamat Hisseine');
   print('Saleh Mahamat Hisseine has $vowelCount vowels');
