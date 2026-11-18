@@ -1,94 +1,52 @@
-# \# UNILAK Dart Basics Assignment
 
-# 
+# UNILAK Dart Basics Assignment
 
-# \*\*Student:\*\* Saleh Mahamat Hisseine  
+**Student:** Saleh Mahamat Hisseine
 
-# \*\*Registration Number:\*\* 233072023  
+**Registration Number:** 233072023
 
-# \*\*D:\*\* 3  
+**D:** 3
 
-# \*\*T:\*\* 23  
+**T:** 23
 
-# \*\*GitHub Username:\*\* salehmahamathissene
+**GitHub Username:** salehmahamathissene
 
-# 
+## Repository
 
-# \## Repository
+https://github.com/salehmahamathissene/233072023-hisseine-saleh-dart-basics
 
-# 
+## Assignment Overview
 
-# https://github.com/salehmahamathissene/233072023-hisseine-saleh-dart-basics
+This repository contains my UNILAK Dart Basics Assignment, covering variables, data types, strings, operators, control flow, loops, functions, debugging, and a Mobile Money (MoMo) simulator.
 
-# 
+## Project Files
 
-# \## Assignment Overview
+| File | Description |
+|---|---|
+| dart_basics.dart | Dart basics, string operations, loops, functions, and MoMo fee calculations |
+| momo_sim.dart | MoMo simulator, PIN validation, money transfers, airtime purchases, and balance calculations |
+| answers.pdf | Assignment answers |
+| STATUS.md | Assignment progress and completion status |
 
-# 
+## Running the Programs
 
-# This repository contains my UNILAK Dart Basics Assignment, covering variables, data types, strings, operators, control flow, loops, functions, debugging, and a Mobile Money (MoMo) simulator.
+Install the Dart SDK, then run:
 
-# 
+```bash
+dart dart_basics.dart
+dart momo_sim.dart
+```
 
-# \## Project Files
+## Code Analysis
 
-# 
+Run:
 
-# | File | Description |
+```bash
+dart analyze .
+```
 
-# |---|---|
+## Technologies
 
-# | `dart\_basics.dart` | Dart basics, string operations, loops, functions, and MoMo fee calculations |
-
-# | `momo\_sim.dart` | MoMo simulator, PIN validation, money transfers, airtime purchases, and balance calculations |
-
-# | `answers.pdf` | Assignment answers |
-
-# | `STATUS.md` | Assignment progress and completion status |
-
-# 
-
-# \## Running the Programs
-
-# 
-
-# Install the Dart SDK, then run:
-
-# 
-
-# ```bash
-
-# dart dart\_basics.dart
-
-# dart momo\_sim.dart
-
-# ```
-
-# 
-
-# \## Code Analysis
-
-# 
-
-# Run:
-
-# 
-
-# ```bash
-
-# dart analyze .
-
-# ```
-
-# 
-
-# \## Technologies
-
-# 
-
-# \- Dart SDK
-
-# \- Git
-
-# \- GitHub
-
+- Dart SDK
+- Git
+- GitHub
